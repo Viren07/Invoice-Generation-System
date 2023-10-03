@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreateInvoiceController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="367.0" style="-fx-background-color: #e2e2e2;">
+         <children>
+            <Label layoutX="20.0" layoutY="120.0" text="RATE ">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="168.0" text="NIGHT SHIFT ALLOWEENCE">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="217.0" text="WEEKEND COEFFICIENT ">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="22.0" text="ENTER INVOICE DETAILS">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="68.0" text="UPLOAD TIME SHEET">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField_rate" layoutX="20.0" layoutY="143.0" />
+            <TextField fx:id="textField_nightAllw" layoutX="20.0" layoutY="192.0" />
+            <TextField fx:id="textField_weekendCoeff" layoutX="20.0" layoutY="245.0" />
+            <Button fx:id="button_upload" layoutX="12.0" layoutY="95.0" mnemonicParsing="false" text="UPLOAD">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font></Button>
+            <Label layoutX="20.0" layoutY="270.0" text="COMPANY NAME">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField_CompName" layoutX="20.0" layoutY="297.0" />
+            <Label layoutX="17.0" layoutY="339.0" text="COMPANY ">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField_CompAddrs" layoutX="122.0" layoutY="329.0" prefHeight="62.0" prefWidth="215.0" />
+            <Label layoutX="17.0" layoutY="355.0" text="ADDRESS">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="256.0" style="-fx-background-color: #535315;">
+         <children>
+            <Label layoutX="29.0" layoutY="174.0" text="BANKING DETAILS" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField_CompBank" layoutX="28.0" layoutY="287.0" prefHeight="53.0" prefWidth="187.0" />
+            <Label layoutX="41.0" layoutY="258.0" text="NEW BAKING DETAILS" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="4.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="233.0" text="USE PREVIOUSLY STORED ACCOUNT">
+               <font>
+                  <Font name="Arial Black" size="10.0" />
+               </font></Button>
+            <Button layoutX="79.0" layoutY="361.0" mnemonicParsing="false" text="CONTINUE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

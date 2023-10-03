@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewInvoiceController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #e2e2e2;">
+         <children>
+            <Label layoutX="53.0" layoutY="186.0" text="MONTH">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="283.0" text="YEAR">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Date_1.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="431.0" style="-fx-background-color: #535315;">
+         <children>
+            <Label layoutX="59.0" layoutY="24.0" prefHeight="62.0" prefWidth="330.0" text="SELECT MONTH" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="120.0" layoutY="76.0" prefHeight="62.0" prefWidth="209.0" text="AND YEAR" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="35.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="radiobutton_jan" layoutX="14.0" layoutY="192.0" mnemonicParsing="false" text="Jan" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="radiobutton_feb" layoutX="74.0" layoutY="192.0" mnemonicParsing="false" text="Feb" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_mar" layoutX="137.0" layoutY="192.0" mnemonicParsing="false" text="Mar" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_apr" layoutX="201.0" layoutY="192.0" mnemonicParsing="false" text="Apr" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_may" layoutX="267.0" layoutY="192.0" mnemonicParsing="false" text="May" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_june" layoutX="334.0" layoutY="192.0" mnemonicParsing="false" text="June" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_july" layoutX="14.0" layoutY="217.0" mnemonicParsing="false" text="July" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_aug" layoutX="74.0" layoutY="217.0" mnemonicParsing="false" text="Aug" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_sept" layoutX="137.0" layoutY="217.0" mnemonicParsing="false" text="Sept" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_oct" layoutX="201.0" layoutY="217.0" mnemonicParsing="false" text="Oct" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_nov" layoutX="267.0" layoutY="217.0" mnemonicParsing="false" text="Nov" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_dec" layoutX="334.0" layoutY="217.0" mnemonicParsing="false" text="Dec" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_2023" layoutX="26.0" layoutY="297.0" mnemonicParsing="false" text="2023" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_2024" layoutX="86.0" layoutY="297.0" mnemonicParsing="false" text="2024" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_2025" layoutX="149.0" layoutY="297.0" mnemonicParsing="false" text="2025" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_2027" layoutX="267.0" layoutY="297.0" mnemonicParsing="false" text="2027" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_2028" layoutX="329.0" layoutY="297.0" mnemonicParsing="false" text="2028" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radiobutton_2026" layoutX="208.0" layoutY="297.0" mnemonicParsing="false" text="2026" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </RadioButton>
+         </children></AnchorPane>
+   </children>
+</HBox>
