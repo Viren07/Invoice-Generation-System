@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="387.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomePageController">
+   <children>
+      <AnchorPane prefHeight="387.0" prefWidth="582.0" style="-fx-background-color: #535315;">
+         <children>
+            <Label layoutX="40.0" layoutY="70.0" prefHeight="78.0" prefWidth="521.0" text="PICK ONE TO CONTINUE " textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="37.0" />
+               </font></Label>
+            <Button fx:id="button_viewpastinvoice" layoutX="133.0" layoutY="194.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="512.0" style="-fx-background-color: transparent;" text="VIEW PAST INVOICES" textFill="#a9b1c9" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Arial Black" size="27.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="button_createinvoice" layoutX="215.0" layoutY="251.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="CREATE AN INVOICE" textFill="#a9b1c9">
+               <font>
+                  <Font name="Arial Black" size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_logout" layoutX="547.0" layoutY="342.0" mnemonicParsing="false" text="LOGOUT">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

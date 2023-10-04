@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="210.0" style="-fx-background-color: #535315;">
+         <children>
+            <Label layoutX="45.0" layoutY="225.0" text="KINDLY" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="252.0" text="REGISTER TO" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="31.0" layoutY="279.0" text="CONTINUE" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="470.0">
+         <children>
+            <Label layoutX="26.0" layoutY="207.0" text="USERNAME" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="245.0" text="PASSWORD" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="93.0" text="FIRST NAME" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="131.0" text="LAST NAME" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="283.0" prefHeight="38.0" prefWidth="142.0" text="CONFIRM " textAlignment="CENTER" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="308.0" prefHeight="38.0" prefWidth="163.0" text="PASSWORD" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="169.0" text="PHONE NUMBER" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <TextField layoutX="230.0" layoutY="100.0" />
+            <TextField layoutX="230.0" layoutY="138.0" />
+            <TextField layoutX="272.0" layoutY="176.0" />
+            <TextField layoutX="230.0" layoutY="214.0" />
+            <Button layoutX="14.0" layoutY="353.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="184.0" text="REGISTER" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="224.0" layoutY="360.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="184.0" text="LOGIN" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="218.0" layoutY="336.0" text="LOGIN IF ALREADY A USER" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="230.0" layoutY="252.0" />
+            <PasswordField layoutX="230.0" layoutY="296.0" />
+         </children></AnchorPane>
+   </children>
+</HBox>

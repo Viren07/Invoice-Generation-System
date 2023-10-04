@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="187.0" style="-fx-background-color: #535315;">
+         <children>
+            <Label layoutX="9.0" layoutY="217.0" prefHeight="44.0" prefWidth="170.0" style=": 38;" text="WELCOME" textAlignment="JUSTIFY" textFill="#eeeeee">
+               <font>
+                  <Font name="Arial Black" size="29.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </Label>
+            <Label layoutX="19.0" layoutY="261.0" prefHeight="44.0" prefWidth="150.0" style=": 38;" text="PLEASE LOGIN" textAlignment="JUSTIFY" textFill="#eeeeee">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </Label>
+            <Label layoutX="19.0" layoutY="283.0" prefHeight="44.0" prefWidth="150.0" style=": 38;" text=" TO CONTINUE" textAlignment="JUSTIFY" textFill="#eeeeee">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </Label>
+            <Button fx:id="button_changepassword" layoutX="13.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0" style="-fx-cursor: hand;" text="FORGOT PASSWORD" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="414.0" style="-fx-background-color: #eeeeee;">
+         <children>
+            <Label layoutX="22.0" layoutY="188.0" prefHeight="44.0" prefWidth="170.0" text="USERNAME" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="237.0" prefHeight="44.0" prefWidth="170.0" text="PASSWORD" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField_username" layoutX="207.0" layoutY="198.0" prefHeight="25.0" prefWidth="170.0" />
+            <PasswordField fx:id="passwordField_password" layoutX="207.0" layoutY="247.0" prefHeight="25.0" prefWidth="170.0" />
+            <Label layoutX="52.0" layoutY="346.0" prefHeight="44.0" prefWidth="170.0" style=": 38;" text="NEW JOINER??" textAlignment="JUSTIFY" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </Label>
+            <Button fx:id="button_register" layoutX="208.0" layoutY="349.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="134.0" style="-fx-cursor: hand;" text=" REGISTER" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_login" layoutX="114.0" layoutY="293.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="187.0" style="-fx-cursor: hand;" text="LOGIN" textFill="#535315">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Button>
+            <AmbientLight color="CHARTREUSE" layoutX="22.0" layoutY="27.0" lightOn="true" />
+            <AmbientLight color="CHARTREUSE" layoutX="342.0" layoutY="100.0" lightOn="true" />
+         </children></AnchorPane>
+   </children>
+</HBox>
